@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tuitorial for intro to the backend",
+  "homepage": "https://github.com/sagetimmy/Intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/sagetimmy/Intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagetimmy/Intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "sagetimmy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
